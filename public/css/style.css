@@ -1,0 +1,41 @@
+.main {
+    height: 400vh;
+}
+.sidebar {
+    background: rgb(41, 40, 40);
+    color: antiquewhite;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar li {
+    padding: 10px;
+}
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+}
+.sidebar a:hover {
+    background: #000;
+}
+.active {
+    background: #000;
+    border-right: solid 7px yellow;
+}
+.card-data {
+    border: 1px solid;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 15px;
+}
+.card-data i {
+    font-size: 60px;
+}
+.card-desc {
+    font-size: 25px;
+}
+.card-count {
+    font-size: 20px;
+}
